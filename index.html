@@ -27,12 +27,12 @@
       <!-- PC用ナビゲーション終了 -->
       <!-- SP用ナビゲーション -->
       <img id="menu-sp" src="button-menu.png" alt="ナビゲーションを開く"><!-- onclickはしていない -->
-      <nav id="nav-sp">
-        <img id="close" src="images/"button-close.png" alt="ナビゲーションを閉じる"><!-- onclickはしていない -->
-        <a href="index.html" id="logo-sp"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
-        <a href="index.html#concept" class="menu">CONCEPT</a>
-        <a href="index.html#product" class="menu">>PRODUCT</a>
-        <a href="index.html#contact" class="menu">>CONTACT</a>
+      <nav id="nav-sp"><!-- 13.5を参照　-->
+        <img id="close" src="images/"button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'"><!-- onclickはしていない -->
+        <a href="index.html" id="logo-sp"><img src="images/logo-sp.png" alt="トップページに戻る" onclick="document.getElementById('nav-sp').style.display = 'none'"></a>
+        <a href="index.html#concept" class="menu" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+        <a href="index.html#product" class="menu" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+        <a href="index.html#contact" class="menu" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
       </nav>
       <!-- SP用ナビゲーション終了 -->
     </header>
